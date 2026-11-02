@@ -6,7 +6,7 @@
 export def main [
     input?: any                             # The file path (e.g., query.sql) OR a raw T-SQL string
     --server (-s): string = "localhost"     # Server IP
-    --db (-d): string = "PrypcoPrep"        # Target database
+    --db (-d): string = "Database"          # Target database
     --user (-u): string = "sa"              # User
     --pass (-p): string = "SqlServer!"      # Password
     --raw (-r)                              # Plain sqlcmd output instead of tables
